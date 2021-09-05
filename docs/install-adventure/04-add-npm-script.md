@@ -23,6 +23,8 @@ kemudian dikasi custom command. Script ini custom bisa diset suka suka nya devel
   }
   ```
 
+  ![npm run](/img/04-add-npm-script/03-open-script.png)
+
   Sekarang kalo dah ada script kyk gitu, kita bisa jalanin cypress dengan perintah
 
   ```bash
