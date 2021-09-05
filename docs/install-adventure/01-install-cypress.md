@@ -31,8 +31,12 @@ Apapun OS nya mulai skarang install pake package manager
   npm init -y
   ```
 
+  ![npm init](/img/01-install-cypress/01-npm-init.png)
+
 - Install Cypress Dependency
 
   ```bash
   npm install cypress --save-dev
   ```
+
+  ![npm install](/img/01-install-cypress/02-npm-install.png)

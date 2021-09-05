@@ -16,3 +16,5 @@ sidebar_position: 2
   ```bash
   ./node_modules/.bin/cypress open
   ```
+  ![cypress open](/img/02-running-cypress/01-cypress-open.png)
+  ![cypress run](/img/02-running-cypress/02-cypress-run.png)

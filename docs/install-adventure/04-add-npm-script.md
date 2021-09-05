@@ -14,6 +14,7 @@ kemudian dikasi custom command. Script ini custom bisa diset suka suka nya devel
 ## How to add custom script
 
 - Buka file package.json
+  ![package.json](/img/04-add-npm-script/01-package-json.png)
 - Cek di object `"scripts"`
 
   ```json

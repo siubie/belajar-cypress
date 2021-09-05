@@ -21,14 +21,19 @@ Pada dasarnya semua browser basic bisa
 Pas awal jalan si cypress bakal ngedetect browser yang udah ke install bisa juga switch dari dropdown pilihan browser
 :::
 
+![switch browser](/img/03-switch-browser/01-switch-browser-ui.png)
+
 ## Jalanin via command line
 
 ```bash
-  cypress run --browser {browser-name}
+npx cypress run --browser {browser-name}
 ```
 
 atau
 
 ```bash
-  cypress run --browser path/to/browser/binary
+npx cypress run --browser path/to/browser/binary
 ```
+
+![cypress run](/img/03-switch-browser/02-cypress-run.png)
+![cypress run in action](/img/03-switch-browser/03-cypress-run-video.png)
