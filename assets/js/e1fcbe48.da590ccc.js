@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcypress=self.webpackChunkcypress||[]).push([[284],{1859:function(s){s.exports=JSON.parse('{"allTagsPath":"/belajar-cypress/blog/tags","slug":"/belajar-cypress/blog/tags/facebook","name":"facebook","count":1,"permalink":"/belajar-cypress/blog/tags/facebook"}')}}]);
