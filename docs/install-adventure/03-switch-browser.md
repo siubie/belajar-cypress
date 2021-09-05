@@ -17,7 +17,7 @@ laptop tester.
 
 Pada dasarnya semua browser basic bisa
 
-:::tip
+:::note
 Pas awal jalan si cypress bakal ngedetect browser yang udah ke install bisa juga switch dari dropdown pilihan browser
 :::
 
