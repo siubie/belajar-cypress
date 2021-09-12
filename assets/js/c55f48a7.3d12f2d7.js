@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcypress=self.webpackChunkcypress||[]).push([[6614],{2068:function(e){e.exports=JSON.parse('{"permalink":"/belajar-cypress/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
