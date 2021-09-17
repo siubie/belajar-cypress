@@ -10,35 +10,33 @@ Struktur folder default dari cypres adalah :
 
 ## Test file
 
-Test spec ditaroh di folder cypress/integration
+Test spec ditaroh di folder cypress/integration, bisa dimasukkan folder kemudian di isi spec file yang bersesuaian.
 
 ## Fixture
 
-Fixtures are used as external pieces of static data that can be used by your tests. Fixture files are located in cypress/fixtures by default, but can be configured to another directory.
+Folder fixtures ini bakal bisa dipakai untuk nyimpan config, dan semua data static yang digunakan berulang ketika nggarap test.
 
 ## Assets File
 
-There are some folders that may be generated after a test run, containing assets that were generated during the test run.
-
-You may consider adding these folders to your `.gitignore` file to ignore
-checking these files into source control.
+Folder asset ini akan berisi semua asset yang tergenerate ketika test berjalan, contohnya file yang di download ketika ngetes, screenshot sama video proses testing.
+Sebaiknya dimasukkan ke `.gitignore` karena bakalan autogenerate dan selalu conflict.
 
 ### Downloads
 
-Any files downloaded while testing an application's file download feature will be stored in the downloads Folder which is set to cypress/downloads by default.
+Semua file yang di download ketika test bakalan ada disini.
 
 ### Screenshots
 
-If screenshots were taken via the cy.screenshot() command or automatically when a test fails, the screenshots are stored in the screenshots Folder which is set to cypress/screenshots by default.
+Semua screenshot ada disini baik dilakukan dengan perintah `cy.screenshot()` atau yang di screenshot otomatis sama cypress ketika ada error.
 
 ### Video
 
-Any videos recorded of the run are stored in the videosFolder which is set to cypress/videos by default.
+Semua video yang di record ketika test ada di folder ini, kalo mau di disable bisa di disable di `cypress.json`
 
 ## Plugins
 
-The plugins file is a special file that executes in Node before the project is loaded, before the browser launches, and during your test execution. While the Cypress tests execute in the browser, the plugins file runs in the background Node process, giving your tests the ability to access the file system and the rest of the operating system by calling the cy.task() command.
+Plugin ini file file yang dieksekusi sebelum project dimulai, sebelum browser jalan, dan ketika tes berjalan ada hook nya.
 
 ## Support
 
-By default Cypress will automatically include the support file cypress/support/index.js. This file runs before every single spec file. We do this purely as a convenience mechanism so you don't have to import this file in every single one of your spec files.
+File yang ada di folder support bisa dipake buat nyimpen command command custom yang kita punya. di reference di index.js nya support biar bisa dipake.

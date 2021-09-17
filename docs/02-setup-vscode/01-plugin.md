@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+# Plugin
+
 ## Set Vscode Sebagai Default File Opener
 
 Buka cypress dengan menjalankan npx cypress open, di gui cypres nya buka bagian setting kemudian set sebagai file opener
