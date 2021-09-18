@@ -15,3 +15,5 @@ Problem yang sering ketemu adalah :
 Solusinya yang paling aman adalah menambahkan attribut `data-*` terhadap elemen yang mau di ambil atau di interaksikan oleh user. Kolaborasi dengan tim programmer sangat diperlukan.
 
 Kalo ga bisa langsung semua di tambahkan attribut `data-*` maka kemahiran QA untuk ngambil selektor itu penting untuk dilatih, gimana caranya ? _Dicoba_ ges :D selamat mencoba.
+
+## Contoh Kasus
